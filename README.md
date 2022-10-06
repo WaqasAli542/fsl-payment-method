@@ -1,2 +1,2 @@
 # FSL Payment Method
-In this Plugin, I build a offline payment methids and render this method on checkout page.
+In this Plugin, I build a offline payment method and renderd this method on checkout page.
