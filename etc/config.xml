@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+
+            <fslpayment>
+                <active>1</active>
+                <model>Waqas\FslPayment\Model\FslPayment</model>
+                <order_status>pending</order_status>
+                <title>FslPayment</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </fslpayment>
+        </payment>
+    </default>
+</config>
